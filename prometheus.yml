@@ -5,4 +5,4 @@ scrape_configs:
   - job_name: 'student-portal-backend'
     metrics_path: '/actuator/prometheus'
     static_configs:
-      - targets: ['host.docker.internal:8080'] # if backend runs locally on Windows
+      - targets: ['host.docker.internal:8000'] # if backend runs locally on Windows

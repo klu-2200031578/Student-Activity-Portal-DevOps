@@ -42,7 +42,7 @@
       "title": "JVM Live Threads",
       "targets": [
         {
-          "expr": "jvm_threads_live_threads{instance=\"host.docker.internal:8080\", job=\"student-portal-backend\"}",
+          "expr": "jvm_threads_live_threads{instance=\"host.docker.internal:8000\", job=\"student-portal-backend\"}",
           "legendFormat": "Live Threads",
           "refId": "A"
         }
@@ -54,7 +54,7 @@
       "title": "System CPU Usage",
       "targets": [
         {
-          "expr": "system_cpu_usage{instance=\"host.docker.internal:8080\", job=\"student-portal-backend\"}",
+          "expr": "system_cpu_usage{instance=\"host.docker.internal:8000\", job=\"student-portal-backend\"}",
           "legendFormat": "CPU Usage",
           "refId": "A"
         }
